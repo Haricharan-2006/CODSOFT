@@ -18,15 +18,15 @@ public class GuessRandomNumber {
              score = score + 10;
              System.out.println("Hooray!You guessed the right number.");
           }
-          else if(guessNumber-randomNumber == 5)
+          else if(guessNumber-randomNumber <= 5)
           {
              System.out.println("Too Close!but entered a little larger number.Try Again");
           }
-          else if(guessNumber-randomNumber == -5)
+          else if(guessNumber-randomNumber = -5)
           {
              System.out.println("Too Close!but entered a little smaller number.Try Again");
           }
-          else if(guessNumber-randomNumber == 10)
+          else if(guessNumber-randomNumber <= 10)
           {
              System.out.println("Close!but entered a larger number.Try Again");
           }
